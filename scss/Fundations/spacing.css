@@ -1,0 +1,44 @@
+.spaced {
+  padding: 10px;
+}
+
+.space {
+  padding: 10px;
+}
+
+.space_margin {
+  margin: 10px;
+}
+
+.space_top {
+  padding-top: 10px;
+}
+
+.space_top_margin {
+  margin-top: 10px;
+}
+
+.space_bottom {
+  padding-top: 10px;
+}
+
+.space_bottom_margin {
+  margin-bottom: 10px;
+}
+
+.space_left {
+  padding-top: 10px;
+}
+
+.space_left_margin {
+  margin-left: 10px;
+}
+
+.space_right {
+  padding-top: 10px;
+}
+
+.space_right_margin {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=spacing.css.map */
