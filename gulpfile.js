@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-let minifyCSS = require("gulp-minify-css");
+let cleanCSS = require("gulp-clean-css");
 let concat = require("gulp-concat");
 
 //npm install gulp --save --only=dev
@@ -16,12 +16,12 @@ gulp.task('sass', async () => {
     .pipe(gulp.dest('public/stylesheets'));
 });
 
-//npm install gulp-minify-css
+//npm install gulp-clean-css
 gulp.task("style_min", () => {
   return gulp
     .src("scss/**/*.scss")
     .pipe(sass())
-    .pipe(minifyCSS())
+    .pipe(cleanCSS())
     .pipe(concat("style_main.min.css"))
     .pipe(gulp.dest("public/stylesheets"));
 });
