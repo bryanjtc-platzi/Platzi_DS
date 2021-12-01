@@ -18,11 +18,12 @@
     "pug": "3.0.2"
   },
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "glob-parent": "5.1.2",
+    "yargs-parser": ">=5.0.1"
   },
   "resolutions": {
     "glob-parent": "5.1.2",
-    "yargs-parser": ">=5.0.1",
-    "set-value": ">=4.0.1"
+    "yargs-parser": ">=5.0.1"
   }
 }
