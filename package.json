@@ -7,23 +7,23 @@
     "preinstall": "npx npm-force-resolutions"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.6",
-    "debug": "~4.3.3",
-    "express": "~4.17.3",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-sass": "^5.1.0",
-    "http-errors": "~2.0.0",
-    "morgan": "~1.10.0",
+    "cookie-parser": "1.4.6",
+    "debug": "4.3.3",
+    "express": "4.17.3",
+    "gulp-clean-css": "4.3.0",
+    "gulp-concat": "2.6.1",
+    "gulp-sass": "5.1.0",
+    "http-errors": "2.0.0",
+    "morgan": "1.10.0",
     "pug": "3.0.2"
   },
   "devDependencies": {
-    "gulp": "^4.0.2",
+    "gulp": "4.0.2",
     "glob-parent": "5.1.2",
-    "yargs-parser": ">=21.0.1"
+    "yargs-parser": "21.0.1"
   },
   "resolutions": {
     "glob-parent": "5.1.2",
-    "yargs-parser": ">=5.0.1"
+    "yargs-parser": "21.0.1"
   }
 }
