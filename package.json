@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "preinstall": "npx npm-force-resolutions"
   },
   "dependencies": {
     "cookie-parser": "1.4.6",
@@ -22,8 +21,4 @@
     "glob-parent": "6.0.2",
     "yargs-parser": "21.0.1"
   },
-  "resolutions": {
-    "glob-parent": "6.0.2",
-    "yargs-parser": "21.0.1"
-  }
 }
