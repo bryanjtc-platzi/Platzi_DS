@@ -9,11 +9,6 @@ updates:
     schedule:
       interval: 'monthly'
       day: 'friday'
-    ignore:
-      - dependency-name: "glob-parent"
-        versions: ["5.x", "6.x"]
-      - dependency-name: "yargs-parser"
-        versions: ["5.x"]
     open-pull-requests-limit: 10
     allow:
       - dependency-type: 'direct'
